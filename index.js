@@ -67,7 +67,7 @@ const typed = new Typed('.multiple-text',{
 document.getElementById('contact-from').addEventListener('submit',function(event){
 event.preventDefault();
 var data=new FormData(event.target);
-fetch("https://mail.google.com/mail/u/0/#inbox",{
+fetch("kolanjibalaguru@gmail.com",{
     method:'POST',
     body:data,
 }).then(response=>{
